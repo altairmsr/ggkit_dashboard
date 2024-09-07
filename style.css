@@ -121,7 +121,7 @@ body {
 }
 
 img {
-	width: 52px;
+	width: 40px;
 }
 
 .cont_top {
@@ -148,9 +148,9 @@ img {
 	justify-content: space-between;
 	align-items: center;
 	gap: 10px;
-	padding: 10px 40px;
+	padding: 10px 20px;
 }
 
 .group_top img {
-	width: 28px;
+	width: 24px;
 }
