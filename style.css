@@ -54,6 +54,7 @@ body {
 	width: 100vw;
 	height: 100vh;
 	display: flex;
+	margin: 200px;
 	flex-direction: column;
 	gap: 100px;
 	justify-content: center;
