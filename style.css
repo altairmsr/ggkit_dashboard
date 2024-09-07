@@ -89,6 +89,13 @@ body {
 	gap: 30px;
 }
 
+.stud_cont {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+}
+
 .group_text_cont {
 	display: flex;
 	flex-direction: column;
