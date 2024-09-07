@@ -62,12 +62,12 @@ body {
 	color: white;
 }
 
-.cont h2 {
+/*.cont h2 {
 	font-size: 3em;
-}
+} */
 
 .cont h3 {
-	font-size: 2em;
+	/* font-size: 2em; */
 	letter-spacing: 6px;
 }
 
