@@ -1,0 +1,115 @@
+const studList = [
+	{
+		id: 0,
+		group: "И1.20-41",
+		name: "Джимнигова Макка",
+		img: "gold",
+		pos: "gold",
+	},
+	{
+		id: 1,
+		group: "И1.20-41",
+		name: "Джимнигова Макка",
+		img: "silver",
+		pos: "silver",
+	},
+	{
+		id: 2,
+		group: "И1.20-41",
+		name: "Джимнигова Макка",
+		img: "bronze",
+		pos: "bronze",
+	},
+	{
+		id: 3,
+		group: "И1.20-41",
+		name: "Джимнигова Макка",
+		pos: "regular",
+	},
+	{
+		id: 4,
+		group: "И1.20-41",
+		name: "Джимнигова Макка",
+		pos: "regular",
+	},
+	{
+		id: 5,
+		group: "И1.20-41",
+		name: "Джимнигова Макка",
+		pos: "regular",
+	},
+	{
+		id: 6,
+		group: "И1.20-41",
+		name: "Джимнигова Макка",
+		pos: "regular",
+	},
+	{
+		id: 7,
+		group: "И1.20-41",
+		name: "Джимнигова Макка",
+		pos: "regular",
+	},
+	{
+		id: 8,
+		group: "И1.20-41",
+		name: "Джимнигова Макка",
+		pos: "regular",
+	},
+	{
+		id: 9,
+		group: "И1.20-41",
+		name: "Джимнигова Макка",
+		pos: "regular",
+	},
+	{
+		id: 10,
+		group: "И1.20-41",
+		name: "Джимнигова Макка",
+		pos: "regular",
+	},
+	{
+		id: 11,
+		group: "И1.20-41",
+		name: "Джимнигова Макка",
+		pos: "regular",
+	},
+	{
+		id: 12,
+		group: "И1.20-41",
+		name: "Джимнигова Макка",
+		pos: "regular",
+	},
+	{
+		id: 13,
+		group: "И1.20-41",
+		name: "Джимнигова Макка",
+		pos: "regular",
+	},
+	{
+		id: 14,
+		group: "И1.20-41",
+		name: "Джимнигова Макка",
+		pos: "regular",
+	},
+	{
+		id: 15,
+		group: "И1.20-41",
+		name: "Джимнигова Макка",
+		pos: "regular",
+	},
+	{
+		id: 16,
+		group: "И1.20-41",
+		name: "Джимнигова Макка",
+		pos: "regular",
+	},
+	{
+		id: 17,
+		group: "И1.20-41",
+		name: "Джимнигова Макка",
+		pos: "regular",
+	},
+];
+
+export default studList;
