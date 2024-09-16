@@ -7,7 +7,6 @@ const Students = () => {
 	return (
 		<div className="cont_top">
 			<div className="stud_cont">
-				<Link to="/groups">Группы</Link>
 				<h3>Топ студентов недели</h3>
 				{studList.map((el) => (
 					<ListElement
