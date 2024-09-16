@@ -1,19 +1,16 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 import Students from "./pages/Students.jsx";
 import Groups from "./pages/Groups.jsx";
 import "./App.css";
 
 const router = createBrowserRouter([
-	{
-		path: "/",
-		element: <Students />,
-	},
-	{
-		path: "/groups",
-		element: <Groups />,
-	},
+	createRoutesFromElements(
+	<Route index element={<Students />} />
+      	<Route path="groups" element={<Groups />} />
+  )
+
 ]);
 
 createRoot(document.getElementById("root")).render(
