@@ -9,6 +9,7 @@ const router = createBrowserRouter([
 	createRoutesFromElements(
 	<Route path="/" element={<Students />} />
       	<Route path="groups" element={<Groups />} />
+	
   )
 ]);
 
