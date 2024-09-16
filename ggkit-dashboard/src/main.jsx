@@ -7,10 +7,9 @@ import "./App.css";
 
 const router = createBrowserRouter([
 	createRoutesFromElements(
-	<Route index element={<Students />} />
+	<Route path="/" element={<Students />} />
       	<Route path="groups" element={<Groups />} />
   )
-
 ]);
 
 createRoot(document.getElementById("root")).render(
