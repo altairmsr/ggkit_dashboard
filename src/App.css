@@ -89,6 +89,10 @@ body {
 	gap: 15px;
 }
 
+.group_cont h5 {
+	font-size: 1em;
+}
+
 .stud_cont {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -140,7 +144,7 @@ img {
 	height: 100vh;
 	display: flex;
 	flex: dire;
-	ction: column;
+	flex-direction: column;
 	gap: 10px;
 	justify-content: center;
 	align-items: center;
@@ -168,4 +172,17 @@ img {
 
 .group_top img {
 	width: 24px;
+}
+
+.top_list {
+	display: flex;
+	justify-content: space-between;
+	gap: 36px;
+}
+
+.top {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	flex-direction: column;
 }

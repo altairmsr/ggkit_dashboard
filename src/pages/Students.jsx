@@ -1,7 +1,6 @@
 import React from "react";
 import ListElement from "../components/listEl/ListElement";
 import studList from "../data/studList";
-import { Link } from 'react-router-dom';
 
 const Students = () => {
 	return (
