@@ -28,8 +28,8 @@ const course4 = [
 	},
 	{
 		id: 4,
-		group: "Межидова З.",
-		name: "И1.21-41",
+		group: "И1.21-41",
+		name: "Межидова З.",
 		pos: "regular",
 	},
 	{
