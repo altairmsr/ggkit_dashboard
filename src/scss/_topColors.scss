@@ -1,0 +1,23 @@
+.gold {
+	border: 2px solid #d8a25e;
+	color: #c96868;
+	animation: gold_pulse 2.5s infinite ease-in-out;
+}
+
+.silver {
+	border: 2px solid #a5a4a4;
+	color: #c96868;
+	animation: silver_pulse 2.5s infinite ease-in-out;
+}
+
+.bronze {
+	border: 2px solid #9e6125;
+	color: #c96868;
+	animation: bronze_pulse 2.5s infinite ease-in-out;
+}
+
+.regular {
+	border: 2px solid #c96868;
+	color: #c96868;
+	animation: regular_pulse 2.5s infinite ease-in-out;
+}

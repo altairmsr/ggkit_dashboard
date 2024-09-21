@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+@import "keyframes";
+@import "topColors";
+@import "global";
+
+@mixin flex_col {
+	display: flex;
+	flex-direction: column;
+}
+
+.cont_top {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	font-family: "Comfortaa", sans-serif;
+	color: #7eacb5;
+	h3 {
+		letter-spacing: 6px;
+		margin-bottom: 6px;
+		grid-area: 1/1/1/3;
+		justify-self: center;
+	}
+}
+
+.group_cont {
+	@include flex_col;
+	align-items: center;
+	gap: 15px;
+	h5 {
+		font-size: 1em;
+	}
+}
+
+.stud_cont {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 5px;
+}
+
+.group_text_cont {
+	@include flex_col;
+	align-items: start;
+	gap: 10px;
+}
+
+.top_list {
+	display: flex;
+	justify-content: space-between;
+	gap: 36px;
+}
+
+.top {
+	@include flex_col;
+	gap: 10px;
+	align-items: center;
+}

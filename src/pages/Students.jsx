@@ -6,7 +6,7 @@ const Students = () => {
 	return (
 		<div className="cont_top">
 			<div className="stud_cont">
-				<h3>Топ студентов недели</h3>
+				<h3>Лучшие студенты за всё время</h3>
 				{studList.map((el) => (
 					<ListElement
 						key={el.id}

@@ -1,0 +1,39 @@
+@keyframes gold_pulse {
+	0%,
+	100% {
+		box-shadow: 0px 0px 6px 0px #ffd700;
+	}
+	50% {
+		box-shadow: 0px 0px 2px 0px #ffd700;
+	}
+}
+
+@keyframes silver_pulse {
+	0%,
+	100% {
+		box-shadow: 0px 0px 6px 0px #c0c0c0;
+	}
+	50% {
+		box-shadow: 0px 0px 2px 0px #c0c0c0;
+	}
+}
+
+@keyframes bronze_pulse {
+	0%,
+	100% {
+		box-shadow: 0px 0px 6px 0px #cd7f32;
+	}
+	50% {
+		box-shadow: 0px 0px 2px 0px #cd7f32;
+	}
+}
+
+@keyframes regular_pulse {
+	0%,
+	100% {
+		box-shadow: 0px 0px 16px 0px #c96868;
+	}
+	50% {
+		box-shadow: 0px 0px 2px 0px #c96868;
+	}
+}

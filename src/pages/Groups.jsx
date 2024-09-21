@@ -4,9 +4,9 @@ import groupList from "../data/groupList";
 
 const Groups = () => {
 	return (
-		<div className="cont">
+		<div className="cont_top">
 			<div className="group_cont">
-				<h3>Топ 5 групп недели</h3>
+				<h3>Топ 5 групп</h3>
 				{groupList.map((el) => (
 					<GroupElement
 						key={el.id}
