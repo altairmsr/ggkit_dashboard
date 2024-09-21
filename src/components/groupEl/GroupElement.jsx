@@ -7,7 +7,7 @@ const GroupElement = ({ id, group, img = null, pos }) => {
 			<h5>
 				{++id}. {group}
 			</h5>
-			{img && <img src={`./src/assets/${pos}.png`} alt="" />}
+			{img && <img src={`../public/assets/${pos}.png`} alt="" />}
 		</div>
 	);
 };
