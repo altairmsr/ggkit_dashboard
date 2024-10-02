@@ -6,6 +6,7 @@ import Groups from "./pages/Groups.jsx";
 import "./scss/App.scss";
 import Courses_12 from "./pages/Courses_12.jsx";
 import Courses_34 from "./pages/Courses_34.jsx";
+import Announcement from "./pages/Announcement.jsx";
 
 const router = createBrowserRouter([
 	{
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
 	{
 		path: "/34",
 		element: <Courses_34 />,
+	},
+	{
+		path: "/anno",
+		element: <Announcement />,
 	},
 ]);
 
