@@ -28,14 +28,14 @@ const course1 = [
 	},
 	{
 		id: 4,
-		group: "О5.24-11",
-		name: "Мусхаджиев Ю.",
+		group: "О1.24-12",
+		name: "Заурбекова К.",
 		pos: "regular",
 	},
 	{
 		id: 5,
-		group: "О1.24-12",
-		name: "Заурбекова К.",
+		group: "О5.24-11",
+		name: "Мусхаджиев Ю.",
 		pos: "regular",
 	},
 	{
@@ -46,8 +46,8 @@ const course1 = [
 	},
 	{
 		id: 7,
-		group: "О1.24-11",
-		name: "Манаева Л.",
+		group: "Э1.24-12",
+		name: "Сакаева Д.",
 		pos: "regular",
 	},
 	{
@@ -58,8 +58,8 @@ const course1 = [
 	},
 	{
 		id: 9,
-		group: "Э1.24-12",
-		name: "Сакаева Д.",
+		group: "О1.24-12",
+		name: "Бецаева А.",
 		pos: "regular",
 	},
 ];
