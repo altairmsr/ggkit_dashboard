@@ -28,14 +28,14 @@ const course4 = [
 	},
 	{
 		id: 4,
-		group: "И2.21-42",
-		name: "Адаева Р.",
+		group: "И1.21-41",
+		name: "Ванцаев А.",
 		pos: "regular",
 	},
 	{
 		id: 5,
-		group: "И1.21-41",
-		name: "Ванцаев А.",
+		group: "И2.21-42",
+		name: "Адаева Р.",
 		pos: "regular",
 	},
 	{
@@ -46,8 +46,8 @@ const course4 = [
 	},
 	{
 		id: 7,
-		group: "И1.21-42",
-		name: "Лутушев Б.",
+		group: "И1.21-44",
+		name: "Утциев М.",
 		pos: "regular",
 	},
 	{
@@ -58,8 +58,8 @@ const course4 = [
 	},
 	{
 		id: 9,
-		group: "И1.21-44",
-		name: "Утциев М.",
+		group: "И1.21-42",
+		name: "Лутушев Б.",
 		pos: "regular",
 	},
 ];
