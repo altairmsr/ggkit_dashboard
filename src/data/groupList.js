@@ -24,7 +24,7 @@ const groupList = [
 	},
 	{
 		id: 4,
-		group: "О6.24-11",
+		group: "И1.21-42",
 		pos: "regular",
 	},
 ];

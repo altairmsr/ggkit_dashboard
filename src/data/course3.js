@@ -15,15 +15,15 @@ const course3 = [
 	},
 	{
 		id: 2,
-		group: "СР1.22-32",
-		name: "Мусаева Ж.",
+		group: "СР1.22-31",
+		name: "Гамбиева Х.",
 		img: "bronze",
 		pos: "bronze",
 	},
 	{
 		id: 3,
-		group: "СР1.22-31",
-		name: "Гамбиева Х.",
+		group: "СР1.22-32",
+		name: "Мусаева Ж.",
 		pos: "regular",
 	},
 	{
@@ -59,7 +59,7 @@ const course3 = [
 	{
 		id: 9,
 		group: "Б1.22-31",
-		name: "Умарова А.",
+		name: "Вахмурадова И.",
 		pos: "regular",
 	},
 ];
