@@ -8,6 +8,11 @@
 	flex-direction: column;
 }
 
+@mixin grid_2col {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
 .cont_top {
 	width: 100vw;
 	height: 100vh;
@@ -49,20 +54,12 @@
 }
 
 .top_list {
-	display: flex;
-	justify-content: space-between;
+	@include grid_2col;
 	gap: 10px;
 }
 
 .top {
-	@include flex_col;
+	@include grid_2col;
 	gap: 6px;
 	align-items: center;
-}
-
-.announce {
-	width: 100vw;
-	height: 100vh;
-	background-image: url(/assets/anno_0611.jpg);
-	background-size: 100% 100%;
 }
