@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Punishment.scss";
+import style from "./Punishment.module.scss";
 
 const Punishment = () => {
 	let slideEl = ["pun1", "pun2", "pun3", "pun4", "pun5"];
@@ -26,8 +26,8 @@ const Punishment = () => {
 	}, [index]);
 
 	return (
-		<section className="page">
-			<div className="cont">
+		<section className={style.page}>
+			<div className={style.cont}>
 				<h2>Дисциплинарные взыскания</h2>
 				{people.map((person, personIndex) => {
 					const { id } = person;
@@ -42,7 +42,7 @@ const Punishment = () => {
 						position = "lastSlide";
 					}
 					return (
-						<article key={id} className={position}>
+						<article key={id} className={style[position]}>
 							<img src={`/assets/scans/${person}.jpg`} alt={person} />
 						</article>
 					);
