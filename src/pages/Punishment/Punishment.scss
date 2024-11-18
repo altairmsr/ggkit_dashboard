@@ -8,7 +8,7 @@
 
 .cont {
 	width: 960px;
-	height: 540px;
+	height: 460px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -16,7 +16,7 @@
 	overflow: hidden;
 	h2 {
 		position: absolute;
-		top: 0;
+		top: 10px;
 		color: #7eacb5;
 		font-family: "Comfortaa", sans-serif;
 	}
