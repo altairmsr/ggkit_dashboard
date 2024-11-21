@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import style from "./Punishment.module.scss";
 
 const Punishment = () => {
-	let slideEl = ["pun1", "pun2", "pun3", "pun4", "pun5"];
+	let slideEl = ["pun1", "pun2", "pun3", "pun4", "pun5", "pun6", "pun7"];
 
 	const [people, setPeople] = useState(slideEl);
 	const [index, setIndex] = useState(0);
@@ -43,7 +43,10 @@ const Punishment = () => {
 					}
 					return (
 						<article key={id} className={style[position]}>
-							<img src={`/assets/scans/${person}.jpg`} alt={person} />
+							<img src={`/assets/scans/${person}.jpeg`} alt={person} />
+							<span>
+								Страница {personIndex + 1} из {people.length}
+							</span>
 						</article>
 					);
 				})}
