@@ -8,11 +8,6 @@
 	flex-direction: column;
 }
 
-@mixin grid_2col {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
 .cont_top {
 	width: 100vw;
 	height: 100vh;
@@ -54,12 +49,12 @@
 }
 
 .top_list {
-	@include grid_2col;
+	display: flex;
 	gap: 10px;
 }
 
 .top {
-	@include grid_2col;
+	@include flex_col;
 	gap: 6px;
 	align-items: center;
 }

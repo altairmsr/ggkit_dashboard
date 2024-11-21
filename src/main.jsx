@@ -12,15 +12,11 @@ import Olimp from "./pages/Olimp/Olimp.jsx";
 const router = createBrowserRouter([
 	{
 		path: "/",
-		element: <Students />,
+		element: <Courses_12 />,
 	},
 	{
 		path: "/groups",
 		element: <Groups />,
-	},
-	{
-		path: "/12",
-		element: <Courses_12 />,
 	},
 	{
 		path: "/anno",
