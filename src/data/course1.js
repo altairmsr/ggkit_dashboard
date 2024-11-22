@@ -8,34 +8,35 @@ const course1 = [
 	},
 	{
 		id: 1,
-		group: "О1.24-13",
-		name: "Дикаев Т.",
+		group: "О5.24-11",
+		name: "Наурдинов А.",
 		img: "silver",
 		pos: "silver",
 	},
 	{
 		id: 2,
 		group: "О5.24-11",
-		name: "Наурдинов А.",
+		name: "Мусхаджиев Ю.",
 		img: "bronze",
 		pos: "bronze",
 	},
 	{
 		id: 3,
-		group: "О5.24-12",
-		name: "Мункуев А.",
+		group: "О5.24-11",
+		name: "Мирзаева Р.",
 		pos: "regular",
 	},
 	{
 		id: 4,
-		group: "О1.24-12",
-		name: "Заурбекова К.",
+		group: "О1.24-13",
+		name: "Дикаев Т.",
 		pos: "regular",
 	},
 	{
 		id: 5,
-		group: "О5.24-11",
-		name: "Мусхаджиев Ю.",
+		group: "О1.24-12",
+		name: "Заурбекова К.",
+
 		pos: "regular",
 	},
 	{
@@ -46,8 +47,8 @@ const course1 = [
 	},
 	{
 		id: 7,
-		group: "Э1.24-12",
-		name: "Сакаева Д.",
+		group: "О5.24-12",
+		name: "Махачиев Х.",
 		pos: "regular",
 	},
 	{
@@ -58,8 +59,8 @@ const course1 = [
 	},
 	{
 		id: 9,
-		group: "О1.24-12",
-		name: "Бецаева А.",
+		group: "О6.24-11",
+		name: "Муслиев А.",
 		pos: "regular",
 	},
 ];

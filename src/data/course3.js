@@ -28,20 +28,20 @@ const course3 = [
 	},
 	{
 		id: 4,
-		group: "Б1.22-31",
-		name: "Вахмурадова И.",
-		pos: "regular",
-	},
-	{
-		id: 5,
 		group: "СР1.22-32",
 		name: "Газиева З.",
 		pos: "regular",
 	},
 	{
+		id: 5,
+		group: "И1.22-31",
+		name: "Лутушева С.",
+		pos: "regular",
+	},
+	{
 		id: 6,
-		group: "Б1.22-31",
-		name: "Умарова А.",
+		group: "И1.22-31",
+		name: "Расулов Х.",
 		pos: "regular",
 	},
 	{
@@ -52,14 +52,14 @@ const course3 = [
 	},
 	{
 		id: 8,
-		group: "И1.22-31",
-		name: "Лутушева С.",
+		group: "И1.22-32",
+		name: "Мадаев С.",
 		pos: "regular",
 	},
 	{
 		id: 9,
-		group: "Б1.22-32",
-		name: "Кулаева И.",
+		group: "Б1.22-31",
+		name: "Вахмурадова И.",
 		pos: "regular",
 	},
 ];

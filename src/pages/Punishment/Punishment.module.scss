@@ -1,0 +1,51 @@
+.page {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cont {
+	width: 960px;
+	height: 480px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+	h2 {
+		position: absolute;
+		top: 0;
+		color: #7eacb5;
+		font-family: "Comfortaa", sans-serif;
+	}
+	img {
+		border: 2px solid #c96868;
+		padding: 4px;
+		border-radius: 4px;
+		width: 280px;
+	}
+	article {
+		position: absolute;
+		top: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		gap: 10px;
+		opacity: 0;
+		transition: 0.6s;
+		width: 100%;
+	}
+	.activeSlide {
+		opacity: 1;
+		transform: translate(0, -50%);
+	}
+	.lastSlide {
+		transform: translate(-100%, -50%);
+	}
+	.nextSlide {
+		transform: translate(100%, -50%);
+	}
+}
