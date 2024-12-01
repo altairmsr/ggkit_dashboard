@@ -15,8 +15,8 @@ const course2 = [
 	},
 	{
 		id: 2,
-		group: "И1.23-21",
-		name: "Исраилов И.",
+		group: "О1.23-23",
+		name: "Магомедов Х.",
 		img: "bronze",
 		pos: "bronze",
 	},
@@ -28,8 +28,8 @@ const course2 = [
 	},
 	{
 		id: 4,
-		group: "О1.23-23",
-		name: "Магомедов Х.",
+		group: "И1.23-21",
+		name: "Исраилов И.",
 		pos: "regular",
 	},
 	{
@@ -58,8 +58,8 @@ const course2 = [
 	},
 	{
 		id: 9,
-		group: "О1.23-23",
-		name: "Джовтаев Д.",
+		group: "СР1.23-21",
+		name: "Гайсумова С.",
 		pos: "regular",
 	},
 ];

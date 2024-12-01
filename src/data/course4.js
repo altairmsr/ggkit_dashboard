@@ -46,20 +46,20 @@ const course4 = [
 	},
 	{
 		id: 7,
-		group: "И1.21-43",
-		name: "Тотаев Б.",
-		pos: "regular",
-	},
-	{
-		id: 8,
 		group: "И1.21-42",
 		name: "Лутушев Б.",
 		pos: "regular",
 	},
 	{
-		id: 9,
+		id: 8,
 		group: "И1.21-42",
 		name: "Магомадова М.",
+		pos: "regular",
+	},
+	{
+		id: 9,
+		group: "И1.21-43",
+		name: "Тотаев Б.",
 		pos: "regular",
 	},
 ];

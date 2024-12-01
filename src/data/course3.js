@@ -52,14 +52,14 @@ const course3 = [
 	},
 	{
 		id: 8,
-		group: "И1.22-32",
-		name: "Мадаев С.",
+		group: "И1.22-31",
+		name: "Расулов Х.",
 		pos: "regular",
 	},
 	{
 		id: 9,
-		group: "И1.22-31",
-		name: "Расулов Х.",
+		group: "И1.22-32",
+		name: "Мадаев С.",
 		pos: "regular",
 	},
 ];
