@@ -15,40 +15,41 @@ const course1 = [
 	},
 	{
 		id: 2,
-		group: "О5.24-11",
-		name: "Мусхаджиев Ю.",
+		group: "О1.24-13",
+		name: "Дикаев Т.",
+
 		img: "bronze",
 		pos: "bronze",
 	},
 	{
 		id: 3,
 		group: "О5.24-11",
-		name: "Мирзаева Р.",
-		pos: "regular",
-	},
-	{
-		id: 4,
-		group: "О1.24-13",
-		name: "Дикаев Т.",
-		pos: "regular",
-	},
-	{
-		id: 5,
-		group: "О1.24-12",
-		name: "Заурбекова К.",
+		name: "Мусхаджиев Ю.",
 
 		pos: "regular",
 	},
 	{
-		id: 6,
+		id: 4,
+		group: "О1.24-12",
+		name: "Заурбекова К.",
+		pos: "regular",
+	},
+	{
+		id: 5,
 		group: "ИБ1.24-11",
 		name: "Мукушев Р.",
 		pos: "regular",
 	},
 	{
+		id: 6,
+		group: "О5.24-11",
+		name: "Мирзаева Р.",
+		pos: "regular",
+	},
+	{
 		id: 7,
-		group: "О5.24-12",
-		name: "Махачиев Х.",
+		group: "И1.24-13",
+		name: "Алихаджиев С.",
 		pos: "regular",
 	},
 	{

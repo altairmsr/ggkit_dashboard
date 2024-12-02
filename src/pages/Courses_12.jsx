@@ -8,6 +8,7 @@ import course4 from "../data/course4";
 const Courses_12 = () => {
 	return (
 		<div className="cont_top">
+			<div className="snow"></div>
 			<div className="top_list">
 				<div className="top">
 					<h3>1 курс</h3>

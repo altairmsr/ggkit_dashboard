@@ -37,3 +37,13 @@
 		box-shadow: 0px 0px 2px 0px #c96868;
 	}
 }
+
+$d: 70;
+$w: 600;
+$s: 3s;
+
+@keyframes snow {
+	to {
+		transform: translateY($w + px);
+	}
+}
