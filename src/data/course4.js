@@ -52,14 +52,14 @@ const course4 = [
 	},
 	{
 		id: 8,
-		group: "И1.21-42",
-		name: "Магомадова М.",
+		group: "И1.21-43",
+		name: "Тотаев Б.",
 		pos: "regular",
 	},
 	{
 		id: 9,
-		group: "И1.21-43",
-		name: "Тотаев Б.",
+		group: "И1.21-42",
+		name: "Магомадова М.",
 		pos: "regular",
 	},
 ];
