@@ -26,8 +26,6 @@ const Olimp = () => {
 
 	return (
 		<section className={style.page}>
-			<div className="snow"></div>
-
 			<div className={style.cont}>
 				<h2>Итоги Олимпиады</h2>
 				{people.map((person, personIndex) => {
