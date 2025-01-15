@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import style from "./Punishment.module.scss";
 
 const Punishment = () => {
-	let slideEl = ["pun1", "pun2", "pun3", "pun4", "pun5", "pun6", "pun7"];
+	let slideEl = ["pun1", "pun2", "pun3", "pun4", "pun5"];
 
 	const [people, setPeople] = useState(slideEl);
 	const [index, setIndex] = useState(0);
@@ -28,7 +28,7 @@ const Punishment = () => {
 	return (
 		<section className={style.page}>
 			<div className={style.cont}>
-				<h2>Дисциплинарные взыскания</h2>
+				<h2>Дисциплинарные взыскания 2025</h2>
 				{people.map((person, personIndex) => {
 					const { id } = person;
 					let position = "nextSlide";
