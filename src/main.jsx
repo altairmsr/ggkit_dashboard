@@ -2,6 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Groups from "./pages/Groups.jsx";
+import Students from "./pages/Students.jsx";
 import "./scss/App.scss";
 import Courses_12 from "./pages/Courses_12.jsx";
 import Announcement from "./pages/Announcement/Announcement.jsx";
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
 		path: "/",
 		element: <Courses_12 />,
 	},
+	{
+		path: "/stud",
+		element: <Students />,
+	}
 	{
 		path: "/groups",
 		element: <Groups />,
