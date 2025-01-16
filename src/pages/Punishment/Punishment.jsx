@@ -43,7 +43,7 @@ const Punishment = () => {
 					}
 					return (
 						<article key={id} className={style[position]}>
-							<img src={`/assets/scans/${person}.jpeg`} alt={person} />
+							<img src={`/assets/scans/${person}.jpg`} alt={person} />
 							<span>
 								Страница {personIndex + 1} из {people.length}
 							</span>
