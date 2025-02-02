@@ -28,32 +28,32 @@ const course1 = [
 	},
 	{
 		id: 4,
+		group: "И1.24-12",
+		name: "Идрисов А.",
+		pos: "regular",
+	},
+	{
+		id: 5,
+		group: "И1.24-13",
+		name: "Алихаджиев С.",
+		pos: "regular",
+	},
+	{
+		id: 6,
 		group: "И1.24-11",
 		name: "Аева А.",
 		pos: "regular",
 	},
 	{
-		id: 5,
-		group: "О1.24-13",
-		name: "Дикаев Т.",
-		pos: "regular",
-	},
-	{
-		id: 6,
-		group: "И1.24-12",
-		name: "Джандаев М.",
-		pos: "regular",
-	},
-	{
 		id: 7,
-		group: "О6.24-11",
-		name: "Ахмаева И.",
+		group: "О2.24-11",
+		name: "Садаев И.",
 		pos: "regular",
 	},
 	{
 		id: 8,
-		group: "О2.24-11",
-		name: "Садаев И.",
+		group: "И1.24-12",
+		name: "Дудаев М.",
 		pos: "regular",
 	},
 	{
