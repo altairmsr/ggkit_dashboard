@@ -30,10 +30,10 @@ const router = createBrowserRouter([
 		path: "/punish",
 		element: <Punishment />,
 	},
-	{
-		path: "/gratz",
-		element: <Gratz />,
-	},
+	// {
+	// 	path: "/gratz",
+	// 	element: <Gratz />,
+	// },
 ]);
 
 createRoot(document.getElementById("root")).render(

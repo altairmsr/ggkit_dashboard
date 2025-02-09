@@ -7,13 +7,13 @@ const groupList = [
 	},
 	{
 		id: 1,
-		group: "О6.24-11",
+		group: "О5.24-11",
 		img: "silver",
 		pos: "silver",
 	},
 	{
 		id: 2,
-		group: "О5.24-11",
+		group: "О6.24-11",
 		img: "bronze",
 		pos: "bronze",
 	},
@@ -24,7 +24,7 @@ const groupList = [
 	},
 	{
 		id: 4,
-		group: "И1.23-21",
+		group: "СР1.22-31",
 		pos: "regular",
 	},
 ];
