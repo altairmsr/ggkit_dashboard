@@ -3,40 +3,39 @@ const course4 = [
 		id: 0,
 		group: "С1.21-41",
 		name: "Вахаев З.",
-		
 		img: "gold",
 		pos: "gold",
 	},
 	{
 		id: 1,
 		group: "С1.21-41",
-		name: "Асхабов И.",
+		name: "Абдулаев И.",
 		img: "silver",
 		pos: "silver",
 	},
 	{
 		id: 2,
 		group: "С1.21-41",
-		name: "Асхабов М.",
+		name: "Асхабов И.",
 		img: "bronze",
 		pos: "bronze",
 	},
 	{
 		id: 3,
 		group: "С1.21-41",
-		name: "Хасханов А.",
+		name: "Асхабов М.",
 		pos: "regular",
 	},
 	{
 		id: 4,
 		group: "С1.21-41",
-		name: "Алимханов Д.",
+		name: "Хасханов А.",
 		pos: "regular",
 	},
 	{
 		id: 5,
 		group: "С1.21-41",
-		name: "Абдулаев И.",
+		name: "Алимханов Д.",
 		pos: "regular",
 	},
 	{
@@ -60,7 +59,7 @@ const course4 = [
 	{
 		id: 9,
 		group: "С1.21-41",
-		name: "Мутуев И.",
+		name: "Тельхигов А.",
 		pos: "regular",
 	},
 ];

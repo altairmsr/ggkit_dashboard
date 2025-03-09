@@ -29,13 +29,13 @@ const course3 = [
 	{
 		id: 4,
 		group: "СР1.22-31",
-		name: "Хириханова М.",
+		name: "Гамбиева Х.",
 		pos: "regular",
 	},
 	{
 		id: 5,
-		group: "СР1.22-32",
-		name: "Татарханова Р.",
+		group: "И1.22-33",
+		name: "Вашаев С.",
 		pos: "regular",
 	},
 	{
@@ -46,20 +46,21 @@ const course3 = [
 	},
 	{
 		id: 7,
-		group: "И1.22-33",
-		name: "Вашаев С.",
+		group: "СР1.22-31",
+		name: "Хириханова М.",
 		pos: "regular",
 	},
 	{
 		id: 8,
-		group: "СР1.22-31",
-		name: "Гамбиева Х.",
+		group: "СР1.22-32",
+		name: "Татарханова Р.",
 		pos: "regular",
 	},
 	{
 		id: 9,
-		group: "СР1.22-31",
-		name: "Дудаева Х.",
+		
+		group: "И1.22-34",
+		name: "Бадаев Р.",
 		pos: "regular",
 	},
 ];
