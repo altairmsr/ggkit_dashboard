@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import style from "./Punishment.module.scss";
 
 const Punishment = () => {
-	let slideEl = ["pun1", "pun2", "pun3", "pun4", "pun5"];
+	let slideEl = ["pun1", "pun2", "pun3", "pun4", "pun5", "pun6", "pun7", "pun8"];
 
 	const [people, setPeople] = useState(slideEl);
 	const [index, setIndex] = useState(0);
@@ -17,7 +17,6 @@ const Punishment = () => {
 		}
 	}, [index, people]);
 
-	// autoslide, clearInterval = een cleanup functie noodzakelijk bij interval
 	useEffect(() => {
 		let slider = setInterval(() => {
 			setIndex(index + 1);
