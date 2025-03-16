@@ -79,7 +79,6 @@ const Punishment = () => {
 							<span>
 								Страница {personIndex + 1} из {people.length}
 							</span>
-							<br />
 							<span>
 								{person.name} - {person.group}
 							</span>
