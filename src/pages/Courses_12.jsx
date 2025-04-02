@@ -48,19 +48,6 @@ const Courses_12 = () => {
 						/>
 					))}
 				</div>
-				<div className="top">
-					<h3>4 курс</h3>
-					{course4.map((el) => (
-						<ListElement
-							key={el.id}
-							id={el.id}
-							group={el.group}
-							name={el.name}
-							img={el.img}
-							pos={el.pos}
-						/>
-					))}
-				</div>
 			</div>
 		</div>
 	);

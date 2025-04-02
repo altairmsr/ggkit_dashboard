@@ -1,22 +1,22 @@
 const course1 = [
 	{
 		id: 0,
-		group: "И1.24-11",
-		name: "Шугаипова Х.",
+		group: "О1.24-12",
+		name: "Заурбекова К.",
 		img: "gold",
 		pos: "gold",
 	},
 	{
 		id: 1,
-		group: "О1.24-11",
-		name: "Манаева Л.",
+		group: "И1.24-11",
+		name: "Шугаипова Х.",
 		img: "silver",
 		pos: "silver",
 	},
 	{
 		id: 2,
-		group: "О1.24-12",
-		name: "Заурбекова К.",
+		group: "О1.24-11",
+		name: "Манаева Л.",
 		img: "bronze",
 		pos: "bronze",
 	},
@@ -29,37 +29,39 @@ const course1 = [
 	{
 		id: 4,
 		group: "О1.24-11",
-		name: "Абубакирова Э.",
+		name: "Мустаев З.",
+		
 		pos: "regular",
 	},
 	{
 		id: 5,
-		group: "О1.24-11",
-		name: "Мустаев З.",
-		pos: "regular",
-	},
-	{
-		id: 6,
-		group: "И1.24-12",
-		name: "Шахабова Х.",
-		pos: "regular",
-	},
-	{
-		id: 7,
-		group: "С1.24-11",
-		name: "Ганукаев Р.",
-		pos: "regular",
-	},
-	{
-		id: 8,
 		group: "И1.24-11",
 		name: "Ахматханова С.",
 		pos: "regular",
 	},
 	{
-		id: 9,
+		id: 6,
 		group: "И1.24-13",
 		name: "Хасанов М.",
+		
+		pos: "regular",
+	},
+	{
+		id: 7,
+		group: "О1.24-13",
+		name: "Дикаев Т.",
+		pos: "regular",
+	},
+	{
+		id: 8,
+		group: "И1.24-12",
+		name: "Идрисов А.",
+		pos: "regular",
+	},
+	{
+		id: 9,
+		group: "И1.24-11",
+		name: "Аева А.",
 		pos: "regular",
 	},
 ];

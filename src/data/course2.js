@@ -2,15 +2,14 @@ const course2 = [
 	{
 		id: 0,
 		group: "И1.23-21",
-		name: "Висханов А.",
+		name: "Исраилов И.",
 		img: "gold",
 		pos: "gold",
 	},
 	{
 		id: 1,
 		group: "И1.23-21",
-		name: "Исраилов И.",
-		
+		name: "Висханов А.",
 		img: "silver",
 		pos: "silver",
 	},
@@ -41,26 +40,26 @@ const course2 = [
 	},
 	{
 		id: 6,
-		group: "Э1.23-21",
-		name: "Мидаева З.",
-		pos: "regular",
-	},
-	{
-		id: 7,
 		group: "И1.23-23",
 		name: "Абасов А.",
 		pos: "regular",
 	},
 	{
+		id: 7,
+		group: "Э1.23-21",
+		name: "Мидаева З.",
+		pos: "regular",
+	},
+	{
 		id: 8,
-		group: "И1.23-21",
-		name: "Магомаев М.",
+		group: "Э3.23-21",
+		name: "Астемирова Х.",
 		pos: "regular",
 	},
 	{
 		id: 9,
-		group: "Э3.23-21",
-		name: "Радуев Х.",
+		group: "Б1.23-22",
+		name: "Магомадова Р.",
 		pos: "regular",
 	},
 ];
