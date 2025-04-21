@@ -8,6 +8,7 @@ import Courses_12 from "./pages/Courses_12.jsx";
 import Announcement from "./pages/Announcement/Announcement.jsx";
 import Punishment from "./pages/Punishment/Punishment.jsx";
 import Gratz from "./pages/Gratz/Gratz.jsx";
+import Info from "./pages/Info.jsx";
 
 const router = createBrowserRouter([
 	{
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
 	{
 		path: "/punish",
 		element: <Punishment />,
+	},
+	{
+		path: "/info",
+		element: <Info />,
 	},
 	// {
 	// 	path: "/gratz",
