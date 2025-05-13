@@ -7,7 +7,7 @@ function App() {
     <div className="cont_top">
 		<div className="group_cont">
             <h2>Список студентов с дисциплинарными взысканиями</h2>
-            <CarouselItem items={items} duration={20} />
+            <CarouselItem items={items} duration={40} />
         </div>
     </div>
   );
