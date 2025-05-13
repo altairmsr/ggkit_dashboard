@@ -9,40 +9,41 @@ import Announcement from "./pages/Announcement/Announcement.jsx";
 import Punishment from "./pages/Punishment/Punishment.jsx";
 import Gratz from "./pages/Gratz/Gratz.jsx";
 import Info from "./pages/Info.jsx";
+import RedList from "./pages/RedList/RedList.jsx";
 
 const router = createBrowserRouter([
-	{
-		path: "/",
-		element: <Courses_12 />,
-	},
-	{
-		path: "/stud",
-		element: <Students />,
-	},
-	{
-		path: "/groups",
-		element: <Groups />,
-	},
-	{
-		path: "/anno",
-		element: <Announcement />,
-	},
-	{
-		path: "/punish",
-		element: <Punishment />,
-	},
-	{
-		path: "/info",
-		element: <Info />,
-	},
-	// {
-	// 	path: "/gratz",
-	// 	element: <Gratz />,
-	// },
+  {
+    path: "/",
+    element: <Courses_12 />,
+  },
+  {
+    path: "/stud",
+    element: <Students />,
+  },
+  {
+    path: "/groups",
+    element: <Groups />,
+  },
+  {
+    path: "/anno",
+    element: <Announcement />,
+  },
+  {
+    path: "/redlist",
+    element: <RedList />,
+  },
+  {
+    path: "/info",
+    element: <Info />,
+  },
+  // {
+  // 	path: "/gratz",
+  // 	element: <Gratz />,
+  // },
 ]);
 
 createRoot(document.getElementById("root")).render(
-	<StrictMode>
-		<RouterProvider router={router} />
-	</StrictMode>,
+  <StrictMode>
+    <RouterProvider router={router} />
+  </StrictMode>
 );
