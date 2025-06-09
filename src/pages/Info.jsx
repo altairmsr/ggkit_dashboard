@@ -1,11 +1,27 @@
 import React from "react";
 
 const Info = () => {
-	return (
-		<div className="cont_top" style={{ textAlign: "center", padding: "0 30px", fontSize: "2em", color: "#EE2222", backgroundColor: "#111" }}>
-			<h3>Промежуточную аттестацию (зачёты и экзамены) обучающиеся с дисциплинарным взысканием будут сдавать только в присутствии Директора колледжа!</h3>
-		</div>
-	);
+  return (
+    <div
+      className="cont_top"
+      style={{
+        textAlign: "center",
+        padding: "0 30px",
+        fontSize: "2em",
+        color: "#111",
+        backgroundColor: "#F7F3D6",
+        height: "100vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <h3>
+        Приветствуем участников отборочного этапа национального чемпионата
+        Абилимпикс 2025
+      </h3>
+    </div>
+  );
 };
 
 export default Info;

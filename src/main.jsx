@@ -10,6 +10,7 @@ import Punishment from "./pages/Punishment/Punishment.jsx";
 import Gratz from "./pages/Gratz/Gratz.jsx";
 import Info from "./pages/Info.jsx";
 import RedList from "./pages/RedList/RedList.jsx";
+import Punishment2 from "./pages/Punishment2/Punishment2.jsx";
 
 const router = createBrowserRouter([
   {
@@ -36,10 +37,14 @@ const router = createBrowserRouter([
     path: "/info",
     element: <Info />,
   },
-  // {
-  // 	path: "/gratz",
-  // 	element: <Gratz />,
-  // },
+  {
+    path: "/abl1",
+    element: <Punishment />,
+  },
+  {
+    path: "/abl2",
+    element: <Punishment2 />,
+  },
 ]);
 
 createRoot(document.getElementById("root")).render(

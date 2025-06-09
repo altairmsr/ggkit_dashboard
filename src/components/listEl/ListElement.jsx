@@ -7,7 +7,7 @@ const ListElement = ({ id, group, name, img = null, pos }) => {
 			<h5>
 				{++id}. {group} {name}
 			</h5>
-			{img && <img src={`/assets/${pos}.png`} alt="" />}
+			{/* {img && <img src={`/assets/${pos}.png`} alt="" />} */}
 		</div>
 	);
 };

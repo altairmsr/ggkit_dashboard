@@ -1,23 +1,30 @@
 .gold {
-	border: 2px solid #d8a25e;
-	color: #3f72af;
-	animation: gold_pulse 2.5s infinite ease-in-out;
+  background: linear-gradient(
+    45deg,
+    rgba(255, 215, 0, 0.6),
+    rgba(255, 215, 0, 0.6),
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 215, 0, 0.6),
+    rgba(255, 215, 0, 0.6)
+  );
 }
 
 .silver {
-	border: 2px solid #a5a4a4;
-	color: #3f72af;
-	animation: silver_pulse 2.5s infinite ease-in-out;
+  background: linear-gradient(
+    45deg,
+    rgba(203, 214, 216, 0.6),
+    rgba(255, 255, 255, 0.5),
+    rgba(203, 214, 216, 0.6)
+  );
 }
 
 .bronze {
-	border: 2px solid #9e6125;
-	color: #3f72af;
-	animation: bronze_pulse 2.5s infinite ease-in-out;
-}
-
-.regular {
-	border: 2px solid #3f72af;
-	color: #3f72af;
-	// animation: regular_pulse 2.5s infinite ease-in-out;
+  background: linear-gradient(
+    45deg,
+    rgba(181, 101, 45, 0.6),
+    rgba(181, 101, 45, 0.6),
+    rgba(255, 255, 255, 0.4),
+    rgba(181, 101, 45, 0.6),
+    rgba(181, 101, 45, 0.6)
+  );
 }
