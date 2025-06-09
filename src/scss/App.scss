@@ -28,7 +28,7 @@
   text-align: center;
   background-image: linear-gradient(135deg, #00f260, #0575e6);
   background-size: 400% 400%;
-  animation: gradientFlow 10s ease-in-out infinite;
+  animation: shine 10s ease-in-out infinite;
   background-repeat: repeat;
   color: white;
   text-transform: uppercase;
@@ -47,25 +47,39 @@
   }
 }
 
-@keyframes gradientFlow {
+@keyframes shakeAndChange {
   0% {
-    background-position: 0% 0%;
+    transform: translateX(-50%);
   }
 
-  25% {
-    background-position: 50% 50%;
+  5% {
+    transform: translateX(0%);
   }
 
-  50% {
-    background-position: 100% 100%;
+  10% {
+    transform: translateX(50%);
+  }
+
+  15% {
+    transform: translateX(0%);
+    color: #123144;
+  }
+
+  60% {
+    transform: translateX(-50%);
+  }
+
+  65% {
+    transform: translateX(0%);
+  }
+
+  70% {
+    transform: translateX(50%);
   }
 
   75% {
-    background-position: 50% 50%;
-  }
-
-  100% {
-    background-position: 0% 0%;
+    transform: translateX(0%);
+    color: red;
   }
 }
 
