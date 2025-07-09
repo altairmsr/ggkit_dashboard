@@ -1,28 +1,11 @@
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 import style from "./Olimp.module.scss";
 import slideEl from "../../data/olimpList";
+import { useSlideshow } from "../../hooks/useSlideshow";
 
 const Olimp = () => {
-	const [people, setPeople] = useState(slideEl);
-	const [index, setIndex] = useState(0);
-
-	useEffect(() => {
-		const lastIndex = people.length - 1;
-		if (index < 0) {
-			setIndex(lastIndex);
-		}
-		if (index > lastIndex) {
-			setIndex(0);
-		}
-	}, [index, people]);
-
-	// autoslide, clearInterval = een cleanup functie noodzakelijk bij interval
-	useEffect(() => {
-		let slider = setInterval(() => {
-			setIndex(index + 1);
-		}, 10000);
-		return () => clearInterval(slider);
-	}, [index]);
+	const [people] = useState(slideEl);
+	const { getSlidePosition } = useSlideshow(people, 10000);
 
 	return (
 		<section className={style.page}>
@@ -30,22 +13,14 @@ const Olimp = () => {
 				<h2>Итоги Олимпиады</h2>
 				{people.map((person, personIndex) => {
 					const { id } = person;
-					let position = "nextSlide";
-					if (personIndex === index) {
-						position = "activeSlide";
-					}
-					if (
-						personIndex === index - 1 ||
-						(index === 0 && personIndex === people.length - 1)
-					) {
-						position = "lastSlide";
-					}
+					const position = getSlidePosition(personIndex);
 
 					return (
 						<article key={id} className={style[position]}>
 							<h3>{person[0]}</h3>
-							{person[1].map((el, id) => (
+							{person[1].map((el, elIndex) => (
 								<div
+									key={elIndex}
 									className={`${style.olimp_el_cont} ${
 										Array.isArray(el.name) ? style.olimp_el_list : ""
 									} ${
@@ -58,10 +33,10 @@ const Olimp = () => {
 								>
 									<span>{el.pos}</span>
 									{Array.isArray(el.name) ? (
-										el.name.map((elem, id) => (
-											<div className={style.olimp_list}>
+										el.name.map((elem, nameIndex) => (
+											<div key={nameIndex} className={style.olimp_list}>
 												<span>{elem}</span>
-												<span>{el.group[id]}</span>
+												<span>{el.group[nameIndex]}</span>
 											</div>
 										))
 									) : (
