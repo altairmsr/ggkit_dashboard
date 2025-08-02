@@ -26,7 +26,7 @@ const router = createBrowserRouter([
     element: <Groups />,
   },
   {
-    path: "/anno",
+    path: "/punish",
     element: <Announcement />,
   },
   {
