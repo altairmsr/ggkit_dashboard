@@ -1,49 +1,13 @@
-import React, { useEffect, useState } from "react";
-import style from "./Punishment.module.scss";
+import Gallery from "../../components/Gallery/Gallery";
 
 const Punishment = () => {
-  const startId = 8491;
-  const endId = 8584;
-
-  const numberList = Array.from(
-    { length: endId - startId + 1 },
-    (_, i) => startId + i
-  );
-
-  const [index, setIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setIndex((prev) => (prev + 1) % numberList.length);
-    }, 3000);
-
-    return () => clearInterval(interval);
-  }, [numberList.length]);
-
   return (
-    <section className={style.page}>
-      <div className={style.cont}>
-        <h2>Галерея Абилимпикс</h2>
-        {numberList.map((id, personIndex) => {
-          let position = "nextSlide";
-          if (personIndex === index) {
-            position = "activeSlide";
-          }
-          if (
-            personIndex === index - 1 ||
-            (index === 0 && personIndex === numberList.length - 1)
-          ) {
-            position = "lastSlide";
-          }
-
-          return (
-            <article key={id} className={style[position]}>
-              <img src={`/assets/abl/IMG_${id}.JPG`} alt={`punishment-${id}`} />
-            </article>
-          );
-        })}
-      </div>
-    </section>
+    <Gallery
+      startId={8491}
+      endId={8584}
+      title="Галерея Абилимпикс"
+      interval={3000}
+    />
   );
 };
 
