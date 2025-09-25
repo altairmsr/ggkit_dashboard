@@ -1,41 +1,21 @@
+import React from "react";
 import { studList as students } from "../data/studList";
+import StudentCard from "../components/StudentCard/StudentCard";
+import Layout from "../components/Layout/Layout";
+import { useStudents } from "../hooks/useData";
 
-const App = () => {
+const Students = () => {
+  const normalizedStudents = useStudents(students);
+
   return (
-    <div className="page">
-      <div className="top-panel">
-        <div className="header">
-          <h1>ТОП-20 лучших студентов</h1>
-          <p>Учебный год 2024/2025</p>
-        </div>
-
-        <div className="student-cont grid-2">
-          {students.map((student) => (
-            <div
-              key={(student.id + 1)}
-              className={`student-card ${student.id + 1 <= 3 ? "top-3" : ""} ${
-                student.id == 0
-                  ? "gold"
-                  : student.id == 1
-                  ? "silver"
-                  : student.id == 2
-                  ? "bronze"
-                  : ""
-              }`}
-            >
-              <p className="student-name">{student.id + 1}. {student.name}</p>
-              <div className="student-score-cont">
-                <span className="student-score-label">{student.group}</span>
-                <span className="student-score-value">
-                  {student.gpa.toFixed(2)}
-                </span>
-              </div>
-            </div>
-          ))}
-        </div>
+    <Layout title="ТОП-20 лучших студентов">
+      <div className="student-cont grid-2">
+        {normalizedStudents.map((student, index) => (
+          <StudentCard key={student.id} student={student} index={index} />
+        ))}
       </div>
-    </div>
+    </Layout>
   );
 };
 
-export default App;
+export default Students;
