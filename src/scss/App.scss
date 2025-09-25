@@ -23,6 +23,19 @@
   color: white;
 }
 
+.custom-panel {
+  min-width: 650px;
+  min-height: 400px;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  font-family: "Jura", sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  overflow: visible;
+}
+
 .header {
   padding: 12px 16px;
   text-align: center;
@@ -165,4 +178,84 @@
   background: rgba(76, 175, 80, 0.15);
   padding: 1px 4px;
   border-radius: 2px;
+}
+
+// Стили для страницы анонса
+.coming-soon-content {
+  padding: 30px 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.announcement-card {
+  text-align: center;
+  padding: 40px 30px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  max-width: 500px;
+  width: 100%;
+
+  .announcement-icon {
+    font-size: 4rem;
+    margin-bottom: 20px;
+
+    span {
+      display: inline-block;
+      animation: pulse 2s infinite;
+    }
+  }
+
+  h2 {
+    color: #00f260;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+
+  .announcement-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #e0e0e0;
+    margin-bottom: 30px;
+  }
+
+  .features-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 25px;
+
+    .feature-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-size: 0.9rem;
+      color: #ccc;
+
+      .feature-icon {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .coming-soon-date {
+    color: #888;
+    font-style: italic;
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
 }

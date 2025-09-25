@@ -5,7 +5,22 @@ const Layout = ({
   title,
   subtitle = "Учебный год 2024/2025",
   width = 650,
+  noTableStyle = false,
 }) => {
+  if (noTableStyle) {
+    return (
+      <div className="page">
+        <div className="custom-panel" style={{ width }}>
+          <div className="header">
+            <h1>{title}</h1>
+            <p>{subtitle}</p>
+          </div>
+          {children}
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="page">
       <div className="top-panel" style={{ width }}>

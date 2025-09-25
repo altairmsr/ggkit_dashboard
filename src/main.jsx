@@ -8,6 +8,7 @@ import "./scss/App.scss";
 const Groups = lazy(() => import("./pages/Groups.jsx"));
 const Students = lazy(() => import("./pages/Students.jsx"));
 const Courses_12 = lazy(() => import("./pages/Courses_12.jsx"));
+const ComingSoon = lazy(() => import("./pages/ComingSoon.jsx"));
 const Announcement = lazy(() =>
   import("./pages/Announcement/Announcement.jsx")
 );
@@ -33,6 +34,7 @@ const routes = [
   { path: "/", element: <Courses_12 /> },
   { path: "/stud", element: <Students /> },
   { path: "/groups", element: <Groups /> },
+  { path: "/coming-soon", element: <ComingSoon /> },
   { path: "/punish", element: <Announcement /> },
   { path: "/redlist", element: <RedList /> },
   { path: "/info", element: <Info /> },
