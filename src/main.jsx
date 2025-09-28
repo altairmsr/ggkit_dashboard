@@ -50,7 +50,7 @@ const router = createBrowserRouter(
         <Suspense fallback={<LoadingSpinner />}>{route.element}</Suspense>
       </ErrorBoundary>
     ),
-  }))
+  })), { basename: "/ggkit_dashboard" }
 );
 
 createRoot(document.getElementById("root")).render(
