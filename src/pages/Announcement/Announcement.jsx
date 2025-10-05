@@ -4,7 +4,7 @@ import style from "./Anno.module.scss";
 const Announcement = () => {
     return (
         <>
-            <video
+            {/* <video
                 autoPlay
                 loop
                 muted
@@ -21,9 +21,9 @@ const Announcement = () => {
             >
                 <source src="/assets/GGKIT.mp4" type="video/mp4" />
                 Ваш браузер не поддерживает видео.
-            </video>
-            {/* <div className={style.announce}>
-            </div> */}
+            </video> */}
+            <div className={style.announce}>
+            </div>
         </>
     );
 };
