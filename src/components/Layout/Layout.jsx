@@ -3,7 +3,7 @@ import React from "react";
 const Layout = ({
   children,
   title,
-  subtitle = "Учебный год 2025/2026 (на основе данных из дневника.ру)",
+  subtitle = "Учебный год 2025/2026 (на основе данных из дневник.ру)",
   width = 650,
   noTableStyle = false,
 }) => {
