@@ -3,7 +3,7 @@ import Layout from "../components/Layout/Layout";
 
 const ComingSoon = () => {
   return (
-    <Layout title="Новые возможности" width={700} noTableStyle={true}>
+    <Layout title="Итоги" width={700} noTableStyle={true}>
       <div className="coming-soon-content">
         <div className="announcement-card">
           <div className="announcement-icon">
@@ -11,8 +11,8 @@ const ComingSoon = () => {
           </div>
           <h2>Скоро</h2>
           <p className="announcement-text">
-            Здесь со следующей недели будет рейтинг студентов с лучшими
-            результатами
+            По итогам зачётов, экзаменов и оценок скоро будут подведены итоги
+            лучших студентов 1 семестра 2025-2026 учебного года
           </p>
         </div>
       </div>

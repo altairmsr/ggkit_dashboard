@@ -31,7 +31,7 @@ const routes = [
   { path: "/", element: <Courses_12 /> },
   { path: "/stud", element: <Students /> },
   { path: "/groups", element: <Groups /> },
-  { path: "/coming-soon", element: <ComingSoon /> },
+  { path: "/cs", element: <ComingSoon /> },
   { path: "/anno", element: <Announcement /> },
   { path: "/redlist", element: <RedList /> },
   { path: "/info", element: <Info /> },
