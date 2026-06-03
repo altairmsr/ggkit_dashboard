@@ -1,9 +1,9 @@
 .red {
   width: 100vw;
-  height: calc(100vh);
+  max-height: 1080px;
   overflow: scroll;
   img {
     width: 100vw;
-    height: 200vh;
+    height: 200%;
   }
 }
