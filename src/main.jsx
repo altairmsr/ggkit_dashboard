@@ -3,6 +3,9 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorBoundary from "./components/ErrorBoundary/ErrorBoundary.jsx";
 import "./scss/App.scss";
+import Red_1 from "./pages/red/Red_1.jsx";
+import Red_2 from "./pages/red/Red_2.jsx";
+import Red_3 from "./pages/red/Red_3.jsx";
 
 const Groups = lazy(() => import("./pages/Groups.jsx"));
 const Students = lazy(() => import("./pages/Students.jsx"));
@@ -37,6 +40,8 @@ const routes = [
   { path: "/info", element: <Info /> },
   { path: "/abl1", element: <Punishment /> },
   { path: "/abl2", element: <Punishment2 /> },
+  { path: "/khalid", element: <Red_1 /> },
+  { path: "/khalid2", element: <Red_3 /> },
 ];
 
 const router = createBrowserRouter(
